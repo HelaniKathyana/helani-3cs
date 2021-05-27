@@ -11362,3 +11362,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #00bbb3 !important;
   font-size: 20px;
 }
+
+#awardimg {
+  width: 90%;
+}
