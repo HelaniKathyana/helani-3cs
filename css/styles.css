@@ -128,12 +128,14 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-family: sans-serif !important;
 }
 
 p.mainpara {
   text-align: justify;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
 }
 
@@ -10872,6 +10874,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   color: #000080;
+  font-family: sans-serif !important;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -10996,11 +10999,16 @@ header.masthead .masthead-subheading {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
+  /* font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-size: 4.25rem;
+  font-weight: 500;
+  line-height: 5.25rem;
+  margin-bottom: 2rem;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (min-width: 768px) {
@@ -11015,17 +11023,19 @@ header.masthead .masthead-heading {
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
+    font-size: 4.25rem;
+    font-weight: 500;
+    line-height: 5.25rem;
+    margin-bottom: 2rem;
     font-family: "Raleway";
   }
 }
 @media (max-width: 768px) {
   header.masthead .masthead-heading {
     font-size: 2.7rem;
+    line-height: 4.25rem;
     padding-bottom: 20%;
+    margin-top: 10%;
   }
 }
 #portfolio .portfolio-item {
